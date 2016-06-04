@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="bootstrap.css">
+	<title>Ejercicios JS  by Alan</title>
+</head>
+<body>
+	<div class="container">
+		<h2>Variables y Operadores</h2>
+		<br>
+		<ul class="list-group">
+			<li class="list-group-item"> 
+				<h4>Ejercicio 1: División de números<h4>
+				<p>Haz un programa que sirva para dividir dos números.</p>
+				<button class="btn btn-primary" onclick="division()">Dividir</button>
+			 </li>
+			<li class="list-group-item">
+				<h4>Ejercicio 2: Conversión de edad<h4>
+				<p>Haz un programa que funcione de la siguiente forma:
+				El programa nos pregunta nuestro nombre.
+				-El programa nos pregunta nuestra edad.
+				-El programa da como resultado nuestro nombre y a continuación los días que hemos vivido hasta el momento (deberás multiplicar la edad por 365).</p>
+				<button class="btn btn-success" onclick="convertirEdad()">Dime cuánto he vivido</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 3: Área del círculo<h4>
+				<p>Haz un programa que sirva para calcular el área del circulo</p>
+				<button class="btn btn-default" onclick="areaCirculo()">Calcular área del círculo</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 4: Llamada Telefónica<h4>
+				<p>Se requiere un programa para determinar el costo que tendrá realizar una llamada telefónica con base en el tiempo que dura la llamada y en el costo por minuto.</p>
+				<button class="btn btn-warning" onclick="llamada()">Costo de llamada</button>
+			</li>
+				<li class="list-group-item">
+				<h4>Ejercicio 5: Calcular determinante de segundo orden<h4>
+				<p>Haz un programa de que sirva para calcular un determinante de 2º orden. Para calcular la determinante de la matriz:
+				<img src="http://recursostic.educacion.es/descartes/web/materiales_didacticos/determinantes_api/imagenes/matriz_1.png" alt="matriz">
+				lo hacemos mediante la fórmula:
+				<img src="http://recursostic.educacion.es/descartes/web/materiales_didacticos/determinantes_api/imagenes/determinante_2.png" alt="fórmuala determinante"></p>
+				<button class="btn btn-danger" onclick="determinante()">Calcular determinante</button>
+			</li>
+		</ul>
+		<br>
+		<h2>Condicionales</h2>
+		<br>
+		<ul class="list-group">
+			<li class="list-group-item"> 
+				<h4>Ejercicio 1: El número más grande<h4>
+				<p>Se desea implementar un programa para determinar cuál de dos valores proporcionados es el mayor.</p>
+				<button class="btn btn-primary" onclick="mayor()">El mayor</button>
+			 </li>
+			<li class="list-group-item">
+				<h4>Ejercicio 2: Positivo o Negativo<h4>
+				<p>Realice un algoritmo para determinar si un número es positivo o negativo.</p>
+				<button class="btn btn-success" onclick="positivo()">Positivo o Negativo</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 3: Almacenes “El harapiento distinguido”<h4>
+				<p>Almacenes “El harapiento distinguido” tiene una promoción: a todos los trajes que tienen un precio superior a $2500.00 se les aplicará un descuento de 15 %, a todos los demás se les aplicará sólo 8 %.Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar un traje y de cuánto es el descuento que obtendrá.</p>
+				<button class="btn btn-default" onclick="almacenesHarapiento()">Almacenes</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 4: BANQUETES “La langosta ahumada”<h4>
+				<p>“La langosta ahumada” es una empresa dedicada a ofrecer banquetes; sus tarifas son las siguientes: el costo de platillo por persona es de s/95.00, pero si el número de personas es mayor a 200 pero menor o igual a 300, el costo es de s/85.00. Para más de 300 personas el costo por platillo es de s/75.00.Se requiere un algoritmo que ayude a determinar el presupuesto que se debe presentar a los clientes que deseen realizar un evento.</p>
+				<button class="btn btn-warning" onclick="banquete()">Banquete</button>
+			</li>
+		</ul>
+		<br>
+		<h2>Estructuras Repetitivas</h2>
+		<br>
+		<ul class="list-group">
+			<li class="list-group-item"> 
+				<h4>Ejercicio 1: SUMA 10 NUMEROS CICLO WHILE<h4>
+				<p>Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo “WHILE”.</p>
+				<button class="btn btn-primary" onclick="sumaWhile()">Suma While</button>
+			 </li>
+			<li class="list-group-item">
+				<h4>Ejercicio 2: SUMA 10 NUMEROS CICLO DO...WHILE<h4>
+				<p>Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo DO...WHILE.</p>
+				<button class="btn btn-default" onclick="sumaDoWhile()">Suma Do While</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 3: SUMA 10 NUMEROS CICLO FOR<h4>
+				<p>Se requiere un algoritmo para obtener la suma de diez cantidades mediante la utilización de un ciclo FOR.</p>
+				<button class="btn btn-warning" onclick="sumaFor()">Suma For</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 4: NUMEROS PARES DEL 0-100<h4>
+				<p>Realice un algoritmo para generar e imprimir los números pares que se encuentran entre 0 y 100.</p>
+				<button class="btn btn-success" onclick="paresCien()">Los pares hasta el 100</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 5: Tabla de multiplicar<h4>
+				<p>Construir la tabla de multiplicar de un número ingresado por teclado, partiendo desde cero.</p>
+				<button class="btn btn-danger" onclick="tabla()">Tabla de Multiplicar</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 6: Factorial<h4>
+				<p>El factorial de un número entero <strong>n</strong> es una operación matemática que consiste en multiplicar todos los factores <strong>n x (n-1) x (n-2) x ... x 1. </strong>Así, el factorial de 5 (escrito como 5!) es igual a: <strong>5! = 5 x 4 x 3 x 2 x 1 = 120</strong></p>
+				<button class="btn btn-primary" onclick="factorial()">Factorial!</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 7: Múltiplos de 11<h4>
+				<p>Realizar un programa que calcula todos los múltiplos de 11 menores de 3000 y por último nos da la suma de todos ellos.</p>
+				<button class="btn btn-success" onclick="multiplos11()">Múltiplos de 11</button>
+			</li>
+		<br>
+		<h2>Arreglos</h2>
+		<br>
+		<ul class="list-group">
+			<li class="list-group-item"> 
+				<h4>Ejercicio 1: Añadir elementos a un array con push(Ciclo for)<h4>
+				<p>Crear un array de elementos que contenga nombres y posteriormente agregar más elementos por medio del método “push”</p>
+				<button class="btn btn-primary" onclick="añadirArray()">Añadir</button>
+			 </li>
+			<li class="list-group-item">
+				<h4>Ejercicio 2: Creando arrays<h4>
+				<p>Crear un array llamado meses y que almacene el nombre de los doce meses del año. Mostrar por pantalla los doce nombres utilizando la función alert()</p>
+				<button class="btn btn-default" onclick="creandoArray()">Creando</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 3: Suma de números<h4>
+				<p>Hacer un ejercicio que nos pida 10 números y luego que sume esos valores.</p>
+				<button class="btn btn-warning" onclick="sumaArray()">Sumar con Array</button>
+			</li>
+			<br>
+		<h2 style="color:#FAB29E">Miscelánea</h2>
+		<br>
+		<ul class="list-group">
+			<li class="list-group-item"> 
+				<h4>Ejercicio 1: Número par o impar<h4>
+				<p>Escribir el código de una función a la que se pasa como parámetro un número entero y devuelve como resultado una cadena de texto que indica si el número es par o impar.</p>
+				<button class="btn btn-primary" onclick="paroimpar()">Par o Impar</button>
+			 </li>
+			<li class="list-group-item">
+				<h4>Ejercicio 2: Mayúsculas o minúsculas<h4>
+				<p>Definir una función que muestre información sobre una cadena de texto que se le pasa como argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está formada sólo por mayúsculas, sólo por minúsculas o por una mezcla de ambas.</p>
+				<button class="btn btn-default" onclick="mayomin()">Mayúscula o minúscula</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 3: Número primo<h4>
+				<p>Realizar un programa que por medio de una función nos indique si el número que el usuario ingresa es primo o no</p>
+				<button class="btn btn-warning" onclick="primo()">Número Primo</button>
+			</li>
+			<li class="list-group-item">
+				<h4>Ejercicio 4: Cantidad de dígitos<h4>
+				<p>Desarrollar una función que retorne la cantidad de dígitos que tiene una variable entera positiva.</p>
+				<button class="btn btn-success" onclick="cantidadDigitos()">Cantidad de Dígitos</button>
+			</li>
+		</ul>
+
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
